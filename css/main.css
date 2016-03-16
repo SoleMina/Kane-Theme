@@ -73,7 +73,7 @@ h3 {
 
 .hola {
   color: white;
-  padding-top: 10%;
+  padding-top: 12%;
   margin-bottom: 4%;
   font-family: sans-serif;
   font-size: 40px;
@@ -371,9 +371,6 @@ h3 {
     padding-bottom: 8%;
     padding-right: 7%;
     padding-left: 7%; }
-  .team img {
-    width: 80%;
-    padding-left: 20%; }
   .team h3, .team h5 {
     color: white;
     text-align: center; }
@@ -385,6 +382,16 @@ h3 {
     border: 1px dashed #F38630;
     height: 0;
     width: 70%; }
+
+.jane {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/team/1.jpg);
+  background-position: 45%;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  margin-top: 2%; }
 
 i {
   font-size: 25px;
@@ -403,6 +410,8 @@ i {
     font-family: sans-serif;
     text-align: center;
     font-size: 50px; }
+  .price h3 {
+    text-align: center; }
   .price hr {
     width: 20%;
     position: relative;
@@ -411,6 +420,64 @@ i {
     color: white;
     text-align: center;
     font-family: sans-serif; }
+
+.bg-brown {
+  background-color: #8F5F38; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-blue {
+  background-color: none; }
+
+.prices-section {
+  padding-bottom: 100px;
+  padding-top: 100px; }
+  .prices-section .separador {
+    margin-bottom: 55px; }
+
+.prices-box {
+  margin-top: 70px;
+  border: 1px solid green;
+  cursor: context-menu; }
+  .prices-box h3 {
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: 400; }
+  .prices-box:hover, .prices-box:focus {
+    margin-top: 20px;
+    border: 2px solid orange; }
+
+.price-green-box {
+  background-color: green; }
+  .price-green-box p:first-child {
+    padding-top: 15px; }
+    .price-green-box p:first-child span {
+      font-size: 45px;
+      font-weight: 400; }
+  .price-green-box p:nth-child(2) {
+    padding-bottom: 20px; }
+
+.price-white-box {
+  background-color: #F5F5F5;
+  width: 100%;
+  color: blue;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.box-blue {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  margin: 0px; }
+  .box-blue a {
+    padding: 2% 4%;
+    background-color: gray; }
+
+.prices-box .price-white-box {
+  color: black; }
 
 /*Clients*/
 .clients {
@@ -523,16 +590,39 @@ footer {
   footer i {
     font-size: 17px; }
 
-.terms {
-  padding-top: 4%; }
+.blanco {
+  color: white; }
 
-.btn-default {
-  background-color: gray;
-  margin: 0;
-  position: relative;
-  top: -3%; }
+.parrafo-white {
+  color: white;
+  padding-left: 12%; }
 
-form .fa-envelope {
-  color: orange; }
+/*final*/
+.footer-info {
+  padding-top: 35px;
+  padding-bottom: 50px; }
+  .footer-info .separador {
+    height: 1px;
+    width: 60px; }
+  .footer-info h4 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 15px; }
+  .footer-info a {
+    color: white; }
+  .footer-info .botones {
+    padding: 10px 15px;
+    margin-top: 35px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer-info .input-group .input-group-addon {
+    padding: 0px 12px; }
+  .footer-info .input-group i {
+    color: orange; }
 
 /*# sourceMappingURL=main.css.map */
